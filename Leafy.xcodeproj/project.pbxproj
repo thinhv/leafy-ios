@@ -15,6 +15,17 @@
 		8C4DF0C4252CF03000A6D6B9 /* Leafy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF0C2252CF03000A6D6B9 /* Leafy.xcdatamodeld */; };
 		8C4DF0CF252CF03000A6D6B9 /* LeafyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF0CE252CF03000A6D6B9 /* LeafyTests.swift */; };
 		8C4DF0DA252CF03100A6D6B9 /* LeafyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF0D9252CF03100A6D6B9 /* LeafyUITests.swift */; };
+		8C4DF0EB252CF05400A6D6B9 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF0EA252CF05400A6D6B9 /* TabBarView.swift */; };
+		8C4DF0F0252CF08700A6D6B9 /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF0EF252CF08700A6D6B9 /* NewsFeed.swift */; };
+		8C4DF0F5252CF09500A6D6B9 /* PlantFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF0F4252CF09500A6D6B9 /* PlantFeedItem.swift */; };
+		8C4DF0FA252CF9FC00A6D6B9 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF0F9252CF9FC00A6D6B9 /* Feed.swift */; };
+		8C4DF0FF252D108D00A6D6B9 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF0FE252D108D00A6D6B9 /* AchievementsView.swift */; };
+		8C4DF10C252D25D700A6D6B9 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF106252D25D600A6D6B9 /* DetailedView.swift */; };
+		8C4DF10D252D25D700A6D6B9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF107252D25D600A6D6B9 /* SearchBar.swift */; };
+		8C4DF10E252D25D700A6D6B9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF108252D25D600A6D6B9 /* ProfileView.swift */; };
+		8C4DF10F252D25D700A6D6B9 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF109252D25D600A6D6B9 /* ImageSliderView.swift */; };
+		8C4DF110252D25D700A6D6B9 /* MyPlantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF10A252D25D700A6D6B9 /* MyPlantsView.swift */; };
+		8C4DF111252D25D700A6D6B9 /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF10B252D25D700A6D6B9 /* TrackingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		8C4DF0D5252CF03100A6D6B9 /* LeafyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeafyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4DF0D9252CF03100A6D6B9 /* LeafyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafyUITests.swift; sourceTree = "<group>"; };
 		8C4DF0DB252CF03100A6D6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4DF0EA252CF05400A6D6B9 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		8C4DF0EF252CF08700A6D6B9 /* NewsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
+		8C4DF0F4252CF09500A6D6B9 /* PlantFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantFeedItem.swift; sourceTree = "<group>"; };
+		8C4DF0F9252CF9FC00A6D6B9 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		8C4DF0FE252D108D00A6D6B9 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		8C4DF106252D25D600A6D6B9 /* DetailedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		8C4DF107252D25D600A6D6B9 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		8C4DF108252D25D600A6D6B9 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = "../../PlantActivityTracker-master/Plant Activity Tracker/ProfileView.swift"; sourceTree = "<group>"; };
+		8C4DF109252D25D600A6D6B9 /* ImageSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
+		8C4DF10A252D25D700A6D6B9 /* MyPlantsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPlantsView.swift; sourceTree = "<group>"; };
+		8C4DF10B252D25D700A6D6B9 /* TrackingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +123,22 @@
 			children = (
 				8C4DF0B7252CF02E00A6D6B9 /* LeafyApp.swift */,
 				8C4DF0B9252CF02E00A6D6B9 /* ContentView.swift */,
+				8C4DF108252D25D600A6D6B9 /* ProfileView.swift */,
+				8C4DF106252D25D600A6D6B9 /* DetailedView.swift */,
+				8C4DF109252D25D600A6D6B9 /* ImageSliderView.swift */,
+				8C4DF10A252D25D700A6D6B9 /* MyPlantsView.swift */,
+				8C4DF107252D25D600A6D6B9 /* SearchBar.swift */,
+				8C4DF10B252D25D700A6D6B9 /* TrackingView.swift */,
 				8C4DF0BB252CF03000A6D6B9 /* Assets.xcassets */,
 				8C4DF0C0252CF03000A6D6B9 /* Persistence.swift */,
 				8C4DF0C5252CF03000A6D6B9 /* Info.plist */,
 				8C4DF0C2252CF03000A6D6B9 /* Leafy.xcdatamodeld */,
 				8C4DF0BD252CF03000A6D6B9 /* Preview Content */,
+				8C4DF0EA252CF05400A6D6B9 /* TabBarView.swift */,
+				8C4DF0EF252CF08700A6D6B9 /* NewsFeed.swift */,
+				8C4DF0F4252CF09500A6D6B9 /* PlantFeedItem.swift */,
+				8C4DF0F9252CF9FC00A6D6B9 /* Feed.swift */,
+				8C4DF0FE252D108D00A6D6B9 /* AchievementsView.swift */,
 			);
 			path = Leafy;
 			sourceTree = "<group>";
@@ -265,9 +298,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4DF10F252D25D700A6D6B9 /* ImageSliderView.swift in Sources */,
+				8C4DF0F0252CF08700A6D6B9 /* NewsFeed.swift in Sources */,
+				8C4DF0FF252D108D00A6D6B9 /* AchievementsView.swift in Sources */,
+				8C4DF10E252D25D700A6D6B9 /* ProfileView.swift in Sources */,
+				8C4DF10C252D25D700A6D6B9 /* DetailedView.swift in Sources */,
+				8C4DF0FA252CF9FC00A6D6B9 /* Feed.swift in Sources */,
 				8C4DF0C1252CF03000A6D6B9 /* Persistence.swift in Sources */,
+				8C4DF111252D25D700A6D6B9 /* TrackingView.swift in Sources */,
 				8C4DF0BA252CF02E00A6D6B9 /* ContentView.swift in Sources */,
 				8C4DF0B8252CF02E00A6D6B9 /* LeafyApp.swift in Sources */,
+				8C4DF0EB252CF05400A6D6B9 /* TabBarView.swift in Sources */,
+				8C4DF110252D25D700A6D6B9 /* MyPlantsView.swift in Sources */,
+				8C4DF0F5252CF09500A6D6B9 /* PlantFeedItem.swift in Sources */,
+				8C4DF10D252D25D700A6D6B9 /* SearchBar.swift in Sources */,
 				8C4DF0C4252CF03000A6D6B9 /* Leafy.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
