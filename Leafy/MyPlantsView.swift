@@ -18,24 +18,31 @@ struct MyPlantsView: View {
     ]
     
     var body: some View {
-        VStack {
-            SearchBar(text: $searchText)
-            
-            List(plants.filter({ "\($0)".contains(searchText.lowercased()) || searchText.isEmpty })){ plants in
-                NavigationLink(
-                    destination: DetailedView(rootIsActive: self.$isActive),
-                    isActive: self.$isActive,
-                    label: {
-                            Image(plants.image)
-                                .resizable()
-                                .frame(width: 60, height: 60)
-                                .cornerRadius(15)
-                            
-                            Text(plants.title.capitalized)
-                    })
-            }
+        ScrollView {
+            VStack {
+                SearchBar(text: $searchText).padding(.horizontal, 16)
+                
+                TrackingView().padding(.vertical, 16)
+                
+                ForEach(plants.filter({ "\($0)".contains(searchText.lowercased()) || searchText.isEmpty })){ plants in
+                    NavigationLink(
+                        destination: DetailedView(rootIsActive: self.$isActive),
+                        isActive: self.$isActive,
+                        label: {
+                            HStack {
+                                Image(plants.image)
+                                    .resizable()
+                                    .frame(width: 60, height: 60)
+                                    .cornerRadius(4)
+                                Text(plants.title.capitalized)
+                                Spacer()
+                            }.padding(.horizontal, 16)
+                        })
+                }
+                
+                
+            }.navigationTitle("My plants")
         }
-        .navigationTitle("My Plants")
     }
 }
 

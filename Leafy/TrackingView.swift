@@ -1,8 +1,6 @@
 import SwiftUI
 
 struct TrackingView: View {
-    @Environment(\.presentationMode) var presentaionMode: Binding<PresentationMode>
-    @Binding var shouldPopToRoot: Bool
     
     var body: some View {
         VStack(spacing: 20){
@@ -183,53 +181,7 @@ struct TrackingView: View {
                 .background(Color.orange.opacity(0.3))
                 .clipShape(RoundedRectangle(cornerRadius: 20))
             }
-            
-            Text("Make sure the tasks are completed before the resources run out. We will send you a reminder to supply nutrients and water to plants.")
-                .foregroundColor(.gray)
-            
-            HStack {
-                Text("Other plants in the house")
-                    .font(.title3)
-                    .fontWeight(.bold)
-                
-                Spacer()
-                
-                Button(action: {
-                    self.shouldPopToRoot = false
-                }){
-                    Text("View All")
-                        .fontWeight(.bold)
-                        .foregroundColor(Color.gray.opacity(0.7))
-                }.buttonStyle(PlainButtonStyle())
-            }.padding(.top, 20)
-            
-            ScrollView(.horizontal, showsIndicators: false){
-                LazyHGrid(rows: Array(repeating: GridItem(.flexible()), count: 1), spacing: 20) {
-                    Button(action: {
-                        self.presentaionMode.wrappedValue.dismiss()
-                    }){
-                        Image("1")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 70, height: 70, alignment: .center)
-                            .cornerRadius(15)
-                    }
-                    .buttonStyle(PlainButtonStyle())
-                    
-                    Button(action: {
-                        self.presentaionMode.wrappedValue.dismiss()
-                    }){
-                        Image("2")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 70, height: 70, alignment: .center)
-                            .cornerRadius(15)
-                    }
-                    .buttonStyle(PlainButtonStyle())
-                }
-            }
         }
         .padding(.horizontal, 20)
-        .navigationTitle("Tracking Detail")
     }
 }

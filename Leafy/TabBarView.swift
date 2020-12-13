@@ -17,11 +17,12 @@ struct TabItem: View {
 }
 
 struct TabBarView: View {
+    @State var selection: Int = 1
     var body: some View {
-        TabView {
-            AchievementsView().tabItem { TabItem(image: "bolt", text: "Achievements") }
-            NewsFeed().tabItem { TabItem(image: "leaf", text: "Feeds") }
-            ProfileView().tabItem { TabItem(image: "person", text: "Profile") }
+        TabView(selection: $selection) {
+            NewsFeed().tabItem { TabItem(image: "leaf", text: "Feeds") }.tag(0)
+            ProfileView().tabItem { TabItem(image: "house", text: "Home") }.tag(1)
+            AchievementsView().tabItem { TabItem(image: "bolt", text: "Achievements") }.tag(2)
         }
     }
 }

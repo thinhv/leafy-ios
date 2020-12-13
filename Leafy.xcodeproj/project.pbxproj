@@ -22,10 +22,10 @@
 		8C4DF0FF252D108D00A6D6B9 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF0FE252D108D00A6D6B9 /* AchievementsView.swift */; };
 		8C4DF10C252D25D700A6D6B9 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF106252D25D600A6D6B9 /* DetailedView.swift */; };
 		8C4DF10D252D25D700A6D6B9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF107252D25D600A6D6B9 /* SearchBar.swift */; };
-		8C4DF10E252D25D700A6D6B9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF108252D25D600A6D6B9 /* ProfileView.swift */; };
 		8C4DF10F252D25D700A6D6B9 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF109252D25D600A6D6B9 /* ImageSliderView.swift */; };
 		8C4DF110252D25D700A6D6B9 /* MyPlantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF10A252D25D700A6D6B9 /* MyPlantsView.swift */; };
 		8C4DF111252D25D700A6D6B9 /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF10B252D25D700A6D6B9 /* TrackingView.swift */; };
+		F48EFC2F252DAB0400E61E4C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48EFC2E252DAB0400E61E4C /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,10 +67,10 @@
 		8C4DF0FE252D108D00A6D6B9 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
 		8C4DF106252D25D600A6D6B9 /* DetailedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
 		8C4DF107252D25D600A6D6B9 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
-		8C4DF108252D25D600A6D6B9 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = "../../PlantActivityTracker-master/Plant Activity Tracker/ProfileView.swift"; sourceTree = "<group>"; };
 		8C4DF109252D25D600A6D6B9 /* ImageSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
 		8C4DF10A252D25D700A6D6B9 /* MyPlantsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPlantsView.swift; sourceTree = "<group>"; };
 		8C4DF10B252D25D700A6D6B9 /* TrackingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		F48EFC2E252DAB0400E61E4C /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 			children = (
 				8C4DF0B7252CF02E00A6D6B9 /* LeafyApp.swift */,
 				8C4DF0B9252CF02E00A6D6B9 /* ContentView.swift */,
-				8C4DF108252D25D600A6D6B9 /* ProfileView.swift */,
+				F48EFC2E252DAB0400E61E4C /* ProfileView.swift */,
 				8C4DF106252D25D600A6D6B9 /* DetailedView.swift */,
 				8C4DF109252D25D600A6D6B9 /* ImageSliderView.swift */,
 				8C4DF10A252D25D700A6D6B9 /* MyPlantsView.swift */,
@@ -301,11 +301,11 @@
 				8C4DF10F252D25D700A6D6B9 /* ImageSliderView.swift in Sources */,
 				8C4DF0F0252CF08700A6D6B9 /* NewsFeed.swift in Sources */,
 				8C4DF0FF252D108D00A6D6B9 /* AchievementsView.swift in Sources */,
-				8C4DF10E252D25D700A6D6B9 /* ProfileView.swift in Sources */,
 				8C4DF10C252D25D700A6D6B9 /* DetailedView.swift in Sources */,
 				8C4DF0FA252CF9FC00A6D6B9 /* Feed.swift in Sources */,
 				8C4DF0C1252CF03000A6D6B9 /* Persistence.swift in Sources */,
 				8C4DF111252D25D700A6D6B9 /* TrackingView.swift in Sources */,
+				F48EFC2F252DAB0400E61E4C /* ProfileView.swift in Sources */,
 				8C4DF0BA252CF02E00A6D6B9 /* ContentView.swift in Sources */,
 				8C4DF0B8252CF02E00A6D6B9 /* LeafyApp.swift in Sources */,
 				8C4DF0EB252CF05400A6D6B9 /* TabBarView.swift in Sources */,

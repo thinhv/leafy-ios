@@ -21,14 +21,9 @@ struct DetailedView: View {
                         .foregroundColor(.gray)
                         .padding(.top, 10)
                     
-                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean orci libero, scelerisque varius interdum a, cursus vitae dui. Proin iaculis sed lacus non porttitor. Nam ultrices sem in finibus euismod. Quisque ut tempus felis. Quisque et rutrum velit, id porta sem. Nunc placerat nunc quis est aliquam,")
+                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
                         .font(.body)
                         .foregroundColor(.gray)
-                    
-                    Text("Care guide")
-                        .font(.title3)
-                        .fontWeight(.semibold)
-                        .padding(.top, 30)
                     
                     LazyHGrid(rows: [GridItem(.adaptive(minimum: 80))], spacing: 16){
                         RoundedRectangle(cornerRadius: 20)
@@ -129,17 +124,7 @@ struct DetailedView: View {
                     }
                 }
                 
-                NavigationLink(
-                    destination: TrackingView(shouldPopToRoot: self.$rootIsActive),
-                    label: {
-                        Text("Show My Progress")
-                            .font(.title2)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 10)
-                            .background(Color("background").opacity(0.8))
-                            .foregroundColor(.white)
-                            .cornerRadius(10)
-                    })
+            
             }
             .padding(.horizontal, 20)
         }
